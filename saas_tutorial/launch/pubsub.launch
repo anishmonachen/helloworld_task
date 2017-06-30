@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="saas_tutorial" name="publisher" type="publisher" output="screen"/>
+  <node pkg="saas_tutorial" name="subscriber" type="subscriber" output="screen"/>
+</launch>
